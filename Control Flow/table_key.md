@@ -9,5 +9,3 @@ t[function()end] = 3
 t[coroutine.create(function()end)] = 4
 t[nil] = 5 --> error: key cant be nil
 ```
-
-// maybe this stuff is not control flow obfuscation method.. move, fix later!
